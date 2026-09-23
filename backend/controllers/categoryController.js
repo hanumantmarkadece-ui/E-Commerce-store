@@ -1,6 +1,25 @@
 import Category from "../models/categoryModel.js";
 import asyncHandler from "../middlewares/asyncHandler.js";
 
+// 1. Initialize product details
+
+// 2. Add product to cart
+
+// 3. Remove product from cart
+
+// 4. Calculate total price
+
+// 5. Apply discount to order
+
+// 6. Check product availability
+
+// 7. Process customer order
+
+// 8. Update product quantity
+
+// 9. Validate user login
+
+// 10. Confirm successful payment
 const createCategory = asyncHandler(async (req, res) => {
   try {
     const { name } = req.body;
